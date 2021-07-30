@@ -45,12 +45,12 @@ button {
     justify-content: center;
 }
 
-numberContainer > * {
+#numberContainer > * {
     border: 1px solid black;
     border-radius: 20%;
     width: 60px;
     height: 60px;
-    font-size: 40;
+    font-size: 40pt;
     margin-left: 50px;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -97,4 +97,5 @@ p.incorrect {
 footer {
     background-color: lightgray;
     text-align: center;
+    color: rgb(255, 0, 0);
 }
