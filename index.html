@@ -9,24 +9,25 @@
     </head>
     <header>
         <h1>Sudoku</h1>
-        <div id="diff">
-            <h3>Choose Difficulty : </h3>
-            <label><input id = "diff1" type="radio" name="diff" value="easy" checked>Easy</label>
-            <label><input id = "diff2" type="radio" name="diff" value="medium">Medium</label>
-            <label><input id = "diff3" type="radio" name="diff" value="hard">Hard</label>
+        <div id="setup-game">
+            <div id="diff">
+                <h3>Choose Difficulty : </h3>
+                <label><input id = "diff1" type="radio" name="diff" value="easy" checked>Easy</label>
+                <label><input id = "diff2" type="radio" name="diff" value="medium">Medium</label>
+                <label><input id = "diff3" type="radio" name="diff" value="hard">Hard</label>
+            </div>
+            <div id="time">
+                <h3>Choose Time :</h3>
+                <label><input id = "time1" type="radio" name="time" value="three" checked>3 Minutes</label>
+                <label><input id = "time2" type="radio" name="time" value="five">5 Minutes</label>
+                <label><input id = "time3" type="radio" name="time" value="ten">10 Minutes</label>
+            </div>
+            <div id="theme">
+                <h3>Choose Theme :</h3>
+                <label><input id = "theme1" type="radio" name="theme" value="light" checked>Light</label>
+                <label><input id = "theme2" type="radio" name="theme" value="dark">Dark</label>
+            </div>
         </div>
-        <div id="time">
-            <h3>Choose Time :</h3>
-            <label><input id = "time1" type="radio" name="time" value="three" checked>3 Minutes</label>
-            <label><input id = "time2" type="radio" name="time" value="five">5 Minutes</label>
-            <label><input id = "time3" type="radio" name="time" value="ten">10 Minutes</label>
-        </div>
-        <div id="theme">
-            <h3>Choose Theme :</h3>
-            <label><input id = "theme1" type="radio" name="theme" value="light" checked>Light</label>
-            <label><input id = "theme2" type="radio" name="theme" value="dark">Dark</label>
-        </div>
-        <br>
         <button id = "startBtn"> Create New Game!</button>
     </header>
     <body>
