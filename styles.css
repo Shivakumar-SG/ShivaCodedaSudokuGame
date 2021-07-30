@@ -38,6 +38,10 @@ p#timer, p#lives {
 
 button {
     justify-self: center;
+    font-size: 15pt;
+    border-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 #game {
@@ -75,7 +79,7 @@ button {
     text-align: center;
     margin: 0px;
     vertical-align: middle;
-    font-size: 40px;
+    font-size: 40pt;
 }
 
 p.selected {
