@@ -5,6 +5,7 @@
         <title> Sudoku Game</title>
         <link rel="icon" type="image/x-icon" href="img/favicon.ico">
         <link rel = "stylesheet" href="styles.css">
+        <script type = "module" src=""sudoku.js"></script>
         <script src="index.js"></script>
     </head>
     <header>
@@ -18,9 +19,9 @@
             </div>
             <div id="time">
                 <h3>Choose Time :</h3>
-                <label><input id = "timer1" type="radio" name="time" value="three" checked>3 Minutes</label>
-                <label><input id = "timer2" type="radio" name="time" value="five">5 Minutes</label>
-                <label><input id = "timer3" type="radio" name="time" value="ten">10 Minutes</label>
+                <label><input id = "timer1" type="radio" name="time" value="three" checked>5 Minutes</label>
+                <label><input id = "timer2" type="radio" name="time" value="five">10 Minutes</label>
+                <label><input id = "timer3" type="radio" name="time" value="ten">15 Minutes</label>
             </div>
             <div id="theme">
                 <h3>Choose Theme :</h3>
@@ -28,7 +29,8 @@
                 <label><input id = "theme2" type="radio" name="theme" value="dark">Dark</label>
             </div>
         </div>
-        <button id = "startBtn"> Create New Game!</button>
+        <button id = "startBtn" class = "hidden"> Start New Puzzle!</button>
+        <button id = "solveButton" class = "hidden"> Solve </button>
     </header>
     <body>
         <div id = "stats">
